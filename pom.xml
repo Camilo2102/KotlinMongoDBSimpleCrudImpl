@@ -63,6 +63,7 @@
     </dependencies>
 
     <build>
+        <finalName>auto-generable-crud</finalName>
         <sourceDirectory>${project.basedir}/src/main/kotlin</sourceDirectory>
         <testSourceDirectory>${project.basedir}/src/test/kotlin</testSourceDirectory>
         <plugins>
