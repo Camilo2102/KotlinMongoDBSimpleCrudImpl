@@ -54,11 +54,16 @@
             <artifactId>kotlin-test-junit5</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+            <version>2.13.0</version> <!-- or the latest version -->
+        </dependency>
 
         <dependency>
             <groupId>cloud.webgen.web.crud.mongodb</groupId>
             <artifactId>SimpleCRUDMongoDB</artifactId>
-            <version>1.0.4</version>
+            <version>1.0.5</version>
         </dependency>
     </dependencies>
 
